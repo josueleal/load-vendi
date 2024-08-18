@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Load para o Sistema VENDI</title>
+    <link rel="stylesheet" href="styles/load.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+  </head>
+  <body>
+    <div class="container text-center mt-5">
+      <h1>Load para o sistema VENDI</h1>
+      <p>Exemplo de load para o sistema VENDI</p>
+      <button id="showOverlay" class="btn">Load (Click)</button>
+      <button id="showEffects" class="btn">Load (Roda Gigante)</button>
+      <button id="showBreathEffect" class="btn">Load (Respiração)</button>
+      <button id="showHeartBeatEffect" class="btn">Load (Batimento Cardíaco)</button>
+      <button id="showOverlay2" class="btn">Load (Pião)</button>
+    </div>
+
+    <!-- Load (Click) -->
+    <div id="loadingOverlay" class="overlay">
+      <svg width="319" height="217" viewBox="0 0 319 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Logotipo">
+          <g id="logotipo">
+            <path id="cruz-1" d="M189.488 82.7811H239.769C241.701 82.7811 243.268 84.3481 243.268 86.281V130.486C243.268 132.419 241.701 133.986 239.769 133.986H189.488C187.002 133.986 184.988 136.001 184.988 138.486V188.768C184.988 190.7 183.421 192.267 181.488 192.267H137.282C135.349 192.267 133.782 190.7 133.782 188.768V138.486C133.782 136.001 131.767 133.986 129.282 133.986H79.0012C77.0682 133.986 75.5012 132.419 75.5012 130.486V86.281C75.5012 84.3481 77.0682 82.7811 79.0012 82.7811H129.282C131.767 82.7811 133.782 80.7664 133.782 78.2812V27.9999C133.782 26.067 135.349 24.5 137.282 24.5H181.488C183.421 24.5 184.988 26.067 184.988 27.9999V78.2811C184.988 80.7664 187.002 82.7811 189.488 82.7811Z" fill="#19A36D" stroke="#19A36D"/>
+            <path id="seta-1" d="M166.924 110.309H239.999C241.932 110.309 243.499 111.876 243.499 113.809V130.92C243.499 132.853 241.932 134.42 239.999 134.42H215.762C211.791 134.42 209.766 139.188 212.524 142.045L240.992 171.534C242.289 172.878 242.302 175.003 241.023 176.363L228.783 189.373C227.416 190.825 225.114 190.844 223.724 189.414L193.087 157.894C190.287 155.014 185.403 156.966 185.36 160.982L185.063 188.799C185.042 190.718 183.481 192.262 181.563 192.262H166.924C164.991 192.262 163.424 190.695 163.424 188.762V113.809C163.424 111.876 164.991 110.309 166.924 110.309Z" fill="#B1D34B" stroke="#B1D34B"/>
+          </g>
+        </g>
+      </svg>
+      <div class="label">Carregando...</div>
+      <div class="label">Aguarde 10 segundos...</div>
+    </div>
+
+    <!-- Load (Roda Gigante) -->
+    <div id="effectsOverlay" class="overlay">
+      <svg width="319" height="217" viewBox="0 0 319 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Logotipo">
+          <g id="logotipo">
+            <path id="cruz-2" d="M189.488 82.7811H239.769C241.701 82.7811 243.268 84.3481 243.268 86.281V130.486C243.268 132.419 241.701 133.986 239.769 133.986H189.488C187.002 133.986 184.988 136.001 184.988 138.486V188.768C184.988 190.7 183.421 192.267 181.488 192.267H137.282C135.349 192.267 133.782 190.7 133.782 188.768V138.486C133.782 136.001 131.767 133.986 129.282 133.986H79.0012C77.0682 133.986 75.5012 132.419 75.5012 130.486V86.281C75.5012 84.3481 77.0682 82.7811 79.0012 82.7811H129.282C131.767 82.7811 133.782 80.7664 133.782 78.2812V27.9999C133.782 26.067 135.349 24.5 137.282 24.5H181.488C183.421 24.5 184.988 26.067 184.988 27.9999V78.2811C184.988 80.7664 187.002 82.7811 189.488 82.7811Z" fill="#19A36D" stroke="#19A36D"/>
+            <path id="seta-2" d="M166.924 110.309H239.999C241.932 110.309 243.499 111.876 243.499 113.809V130.92C243.499 132.853 241.932 134.42 239.999 134.42H215.762C211.791 134.42 209.766 139.188 212.524 142.045L240.992 171.534C242.289 172.878 242.302 175.003 241.023 176.363L228.783 189.373C227.416 190.825 225.114 190.844 223.724 189.414L193.087 157.894C190.287 155.014 185.403 156.966 185.36 160.982L185.063 188.799C185.042 190.718 183.481 192.262 181.563 192.262H166.924C164.991 192.262 163.424 190.695 163.424 188.762V113.809C163.424 111.876 164.991 110.309 166.924 110.309Z" fill="#B1D34B" stroke="#B1D34B"/>
+          </g>
+        </g>
+      </svg>
+      <div class="label">Carregando...</div>
+      <div class="label">Aguarde 10 segundos...</div>
+    </div>
+
+    <!-- Load (Respiração) -->
+    <div id="breathOverlay" class="overlay">
+        <svg width="319" height="217" viewBox="0 0 319 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Logotipo">
+                <g id="logotipo">
+                    <path id="cruz-3" d="M189.488 82.7811H239.769C241.701 82.7811 243.268 84.3481 243.268 86.281V130.486C243.268 132.419 241.701 133.986 239.769 133.986H189.488C187.002 133.986 184.988 136.001 184.988 138.486V188.768C184.988 190.7 183.421 192.267 181.488 192.267H137.282C135.349 192.267 133.782 190.7 133.782 188.768V138.486C133.782 136.001 131.767 133.986 129.282 133.986H79.0012C77.0682 133.986 75.5012 132.419 75.5012 130.486V86.281C75.5012 84.3481 77.0682 82.7811 79.0012 82.7811H129.282C131.767 82.7811 133.782 80.7664 133.782 78.2812V27.9999C133.782 26.067 135.349 24.5 137.282 24.5H181.488C183.421 24.5 184.988 26.067 184.988 27.9999V78.2811C184.988 80.7664 187.002 82.7811 189.488 82.7811Z" fill="#19A36D" stroke="#19A36D"/>
+                    <path id="seta-3" d="M166.924 110.309H239.999C241.932 110.309 243.499 111.876 243.499 113.809V130.92C243.499 132.853 241.932 134.42 239.999 134.42H215.762C211.791 134.42 209.766 139.188 212.524 142.045L240.992 171.534C242.289 172.878 242.302 175.003 241.023 176.363L228.783 189.373C227.416 190.825 225.114 190.844 223.724 189.414L193.087 157.894C190.287 155.014 185.403 156.966 185.36 160.982L185.063 188.799C185.042 190.718 183.481 192.262 181.563 192.262H166.924C164.991 192.262 163.424 190.695 163.424 188.762V113.809C163.424 111.876 164.991 110.309 166.924 110.309Z" fill="#B1D34B" stroke="#B1D34B"/>
+                </g>
+            </g>
+        </svg>
+        <div class="label">Carregando...</div>
+        <div class="label">Aguarde 10 segundos...</div>
+    </div>
+    
+    
+    <!-- Load (Batimento Cardíaco) -->
+    <div id="heartBeatOverlay" class="overlay">
+        <svg width="319" height="217" viewBox="0 0 319 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Logotipo">
+                <g id="logotipo">
+                    <path id="cruz-4" d="M189.488 82.7811H239.769C241.701 82.7811 243.268 84.3481 243.268 86.281V130.486C243.268 132.419 241.701 133.986 239.769 133.986H189.488C187.002 133.986 184.988 136.001 184.988 138.486V188.768C184.988 190.7 183.421 192.267 181.488 192.267H137.282C135.349 192.267 133.782 190.7 133.782 188.768V138.486C133.782 136.001 131.767 133.986 129.282 133.986H79.0012C77.0682 133.986 75.5012 132.419 75.5012 130.486V86.281C75.5012 84.3481 77.0682 82.7811 79.0012 82.7811H129.282C131.767 82.7811 133.782 80.7664 133.782 78.2812V27.9999C133.782 26.067 135.349 24.5 137.282 24.5H181.488C183.421 24.5 184.988 26.067 184.988 27.9999V78.2811C184.988 80.7664 187.002 82.7811 189.488 82.7811Z" fill="#19A36D" stroke="#19A36D"/>
+                    <path id="seta-4" d="M166.924 110.309H239.999C241.932 110.309 243.499 111.876 243.499 113.809V130.92C243.499 132.853 241.932 134.42 239.999 134.42H215.762C211.791 134.42 209.766 139.188 212.524 142.045L240.992 171.534C242.289 172.878 242.302 175.003 241.023 176.363L228.783 189.373C227.416 190.825 225.114 190.844 223.724 189.414L193.087 157.894C190.287 155.014 185.403 156.966 185.36 160.982L185.063 188.799C185.042 190.718 183.481 192.262 181.563 192.262H166.924C164.991 192.262 163.424 190.695 163.424 188.762V113.809C163.424 111.876 164.991 110.309 166.924 110.309Z" fill="#B1D34B" stroke="#B1D34B"/>
+                </g>
+            </g>
+        </svg>
+        <div class="label">Carregando...</div>
+        <div class="label">Aguarde 10 segundos...</div>
+    </div>
+
+    <!-- Load (Pião) -->
+    <div id="loadingOverlay2" class="overlay">
+        <svg width="319" height="217" viewBox="0 0 319 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="Logotipo">
+            <g id="logotipo_rotation">
+              <path id="cruz-5" d="M189.488 82.7811H239.769C241.701 82.7811 243.268 84.3481 243.268 86.281V130.486C243.268 132.419 241.701 133.986 239.769 133.986H189.488C187.002 133.986 184.988 136.001 184.988 138.486V188.768C184.988 190.7 183.421 192.267 181.488 192.267H137.282C135.349 192.267 133.782 190.7 133.782 188.768V138.486C133.782 136.001 131.767 133.986 129.282 133.986H79.0012C77.0682 133.986 75.5012 132.419 75.5012 130.486V86.281C75.5012 84.3481 77.0682 82.7811 79.0012 82.7811H129.282C131.767 82.7811 133.782 80.7664 133.782 78.2812V27.9999C133.782 26.067 135.349 24.5 137.282 24.5H181.488C183.421 24.5 184.988 26.067 184.988 27.9999V78.2811C184.988 80.7664 187.002 82.7811 189.488 82.7811Z" fill="#19A36D" stroke="#19A36D"/>
+              <path id="seta-5" d="M166.924 110.309H239.999C241.932 110.309 243.499 111.876 243.499 113.809V130.92C243.499 132.853 241.932 134.42 239.999 134.42H215.762C211.791 134.42 209.766 139.188 212.524 142.045L240.992 171.534C242.289 172.878 242.302 175.003 241.023 176.363L228.783 189.373C227.416 190.825 225.114 190.844 223.724 189.414L193.087 157.894C190.287 155.014 185.403 156.966 185.36 160.982L185.063 188.799C185.042 190.718 183.481 192.262 181.563 192.262H166.924C164.991 192.262 163.424 190.695 163.424 188.762V113.809C163.424 111.876 164.991 110.309 166.924 110.309Z" fill="#B1D34B" stroke="#B1D34B"/>
+            </g>
+          </g>
+        </svg>
+        <div class="label">Carregando...</div>
+        <div class="label">Aguarde 10 segundos...</div>
+    </div>
+
+    <script>
+        
+      document.getElementById("showOverlay").addEventListener("click", function () {
+        document.getElementById("loadingOverlay").style.display = "flex";
+        setTimeout(function () {
+          document.getElementById("loadingOverlay").style.display = "none";
+        }, 10000);
+      });
+
+      document.getElementById("showEffects").addEventListener("click", function () {
+        document.getElementById("effectsOverlay").style.display = "flex";
+        setTimeout(function () {
+          document.getElementById("effectsOverlay").style.display = "none";
+        }, 10000);
+      });
+
+      document.getElementById("showBreathEffect").addEventListener("click", function () {
+        document.getElementById("breathOverlay").style.display = "flex";
+        setTimeout(function () {
+          document.getElementById("breathOverlay").style.display = "none";
+        }, 10000);
+      });
+
+      document.getElementById("showHeartBeatEffect").addEventListener("click", function () {
+        document.getElementById("heartBeatOverlay").style.display = "flex";
+        setTimeout(function () {
+          document.getElementById("heartBeatOverlay").style.display = "none";
+        }, 10000);
+      });
+
+      document.getElementById("showOverlay2").addEventListener("click", function () {
+        document.getElementById("loadingOverlay2").style.display = "flex";
+        setTimeout(function () {
+          document.getElementById("loadingOverlay2").style.display = "none";
+        }, 10000);
+      });
+
+    </script>
+  </body>
+</html>
