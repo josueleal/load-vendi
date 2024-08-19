@@ -89,9 +89,6 @@
         <div class="label">Aguarde 10 segundos...</div>
     </div>
 
-
-    <p class="numero_acessos">Esta página foi acessada <span id="uniqueCount">0</span> vezes por visitantes únicos.</p>
-
     <script>
         
       document.getElementById("showOverlay").addEventListener("click", function () {
@@ -128,20 +125,6 @@
           document.getElementById("loadingOverlay2").style.display = "none";
         }, 10000);
       });
-
-      document.addEventListener("DOMContentLoaded", function() {
-        const visitorKey = "visitor_has_visited";
-        const countKey = "unique_visitor_count";
-
-        if (!localStorage.getItem(visitorKey)) {
-            localStorage.setItem(visitorKey, "true");
-            let uniqueCount = localStorage.getItem(countKey) || 0;
-            uniqueCount++;
-            localStorage.setItem(countKey, uniqueCount);
-        }
-        document.getElementById("uniqueCount").textContent = localStorage.getItem(countKey);
-      });
-
 
     </script>
   </body>
