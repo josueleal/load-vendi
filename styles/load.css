@@ -8,11 +8,11 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 24px 24px;
-  text-align: center;
+  text-align: left;
 }
 
 body p {
-  margin: 24px 48px;
+  margin: 24px 0px;
 }
 
 .btn {
@@ -26,7 +26,6 @@ body p {
   transition: all 0.3s ease;
   border: none;
   outline: none;
-  margin-top: 48px;
 }
 
 .overlay {
