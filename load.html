@@ -130,25 +130,17 @@
       });
 
       document.addEventListener("DOMContentLoaded", function() {
-    // Chave para armazenar o status do visitante no localStorage
-    const visitorKey = "visitor_has_visited";
-    // Chave para armazenar o contador de visitas únicas
-    const countKey = "unique_visitor_count";
+        const visitorKey = "visitor_has_visited";
+        const countKey = "unique_visitor_count";
 
-    // Verifica se o visitante já acessou a página antes
-    if (!localStorage.getItem(visitorKey)) {
-        // Se não, marca o visitante como "já visitou"
-        localStorage.setItem(visitorKey, "true");
-
-        // Incrementa o contador de visitas únicas
-        let uniqueCount = localStorage.getItem(countKey) || 0;
-        uniqueCount++;
-        localStorage.setItem(countKey, uniqueCount);
-    }
-
-    // Exibe o contador atualizado na página
-    document.getElementById("uniqueCount").textContent = localStorage.getItem(countKey);
-});
+        if (!localStorage.getItem(visitorKey)) {
+            localStorage.setItem(visitorKey, "true");
+            let uniqueCount = localStorage.getItem(countKey) || 0;
+            uniqueCount++;
+            localStorage.setItem(countKey, uniqueCount);
+        }
+        document.getElementById("uniqueCount").textContent = localStorage.getItem(countKey);
+      });
 
 
     </script>
